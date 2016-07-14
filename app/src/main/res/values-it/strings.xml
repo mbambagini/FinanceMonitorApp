@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">FinanceMonitor</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="title_activity_settings">Impostazioni</string>
+
+    <!-- Toast -->
+    <string name="toast_delete_error">Movimento non eliminato</string>
+    <string name="toast_no_network">No connessione</string>
+    <string name="toast_no_move">Nessun movimento da sincronizzare</string>
+    <string name="toast_all_syncs">Tutti i movimenti sincronizzati</string>
+    <string name="toast_no_server">Problemi col server</string>
+    <string name="toast_no_input">Dati non validi</string>
+    <string name="toast_move_added">Movimento aggiunto</string>
+
+    <!-- Messages -->
+    <string name="msg_confirm">Conferma</string>
+    <string name="msg_delete_question">Elimina movimento?</string>
+    <string name="msg_yes_up">SI</string>
+    <string name="msg_no_up">NO</string>
+    <string name="msg_sync">Syncronizzati</string>
+    <string name="msg_out_of">su</string>
+    <string name="msg_euro">euro - €</string>
+    <string name="msg_dollar">dollari - $</string>
+    <string name="msg_pound">sterline - £</string>
+
+    <!-- Activity -->
+    <string name="movements">Movimenti</string>
+    <string name="no_movement_stored">Nessun movimento salvato</string>
+    <string name="amount">Totale</string>
+    <string name="new_move">Nuovo movimento</string>
+
+    <!-- Menu -->
+    <string name="synchronize">Sincronizza</string>
+    <string name="save">Salva</string>
+
+    <!-- Example General settings -->
+    <string-array name="pref_currency_list_titles">
+        <item>Euro</item>
+        <item>Dollari</item>
+        <item>Sterline</item>
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
